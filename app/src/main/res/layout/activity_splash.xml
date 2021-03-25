@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="wrap_content">
+
+     <ImageView
+         android:id="@+id/covid19"
+         android:layout_width="122dp"
+         android:layout_height="125dp"
+         android:layout_marginLeft="125dp"
+         android:layout_marginTop="16dp"
+         android:src="@drawable/covid19" />
+
+     <ImageView
+         android:id="@+id/covidtracker"
+         android:layout_width="203dp"
+
+         android:layout_height="122dp"
+         android:layout_marginLeft="105dp"
+         android:layout_marginTop="54dp"
+         android:src="@drawable/covidtracker" />
+
+     <ImageView
+         android:id="@+id/doctor"
+         android:layout_width="261dp"
+         android:layout_height="321dp"
+         android:layout_marginLeft="75dp"
+         android:layout_marginTop="30dp"
+         android:src="@drawable/covid_19_poster_doctors_nurse_earth_virus_sketch_6847495" />
+ </LinearLayout>
+</RelativeLayout>
